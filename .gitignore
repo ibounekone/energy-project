@@ -1,0 +1,25 @@
+cat > .gitignore << 'EOF'
+# Données (trop volumineuses)
+data/raw/
+data/processed/
+*.parquet
+
+# Fichiers de données bruts (exclure uniquement les datasets)
+*.txt
+!requirements.txt
+
+# Modèles (peuvent être régénérés)
+models/
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
+EOF
