@@ -1,2 +1,1 @@
-cd /Users/user/Machinelearning/consoEnergie/energy_project_clean
-echo "3.11.9" > .python-version
+3.11.9
